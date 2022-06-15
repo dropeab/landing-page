@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 *{
     margin: 0;
@@ -10,7 +11,7 @@
 
 body{
     text-align: center;
-    background-color: rgb(219, 219, 219);
+    background-color: #fff;
     color: rgb(69, 123, 139);
 }
 
@@ -38,8 +39,51 @@ body{
 }
 
 
-a{
+.container a{
     color: inherit;
     font-size: 2em;
-    padding: 60px;
+    margin: 0 60px 0 60px;
+
+}
+
+hr{
+    margin-top: 5px;
+   
+}
+
+h1, span{
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.main__content{
+   
+}
+
+.main__content h1{
+    display: flexbox;
+    margin: 8% 60% 0 0;
+    color: #000;
+    font-size: 60px;
+    height: 100px;
+}
+
+.main__content h1:hover{
+}
+
+.subtitle__main{
+    margin-right: 60%;
+    font-size: 40px;
+    color: rgb(105, 103, 103);
+}
+
+.img__main img{
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    border-radius: 120px;
+    object-fit: contain;
+    margin-left: 45%;
+   
+    
+
 }
